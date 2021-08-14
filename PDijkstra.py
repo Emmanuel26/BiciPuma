@@ -120,7 +120,7 @@ def grafo():
     G.add_edge('V5', 'D', 37.60)
     G.add_edge('V5', 'P8', 96.60)
     G.add_edge('V6', 'C', 274.49)
-    G.add_edge('V6', 'V7', 40.30)
+    G.add_edge('V6', 'V7', 40.34)
     G.add_edge('V6', 'V8', 27.48)
     G.add_edge('V7', 'V6', 40.34)
     G.add_edge('V7', 'V9', 119.03)
@@ -131,7 +131,7 @@ def grafo():
     G.add_edge('V9', 'V7', 119.03)
     G.add_edge('V9', 'F', 22.25)
     G.add_edge('V9', 'V10', 175.33)
-    G.add_edge('V10', 'V9', 175.33)
+    G.add_edge('V10', 'V9', 31.52)
     G.add_edge('V10', 'V11', 18.56)
     G.add_edge('V10', 'P11', 73.27)
     G.add_edge('V11', 'V10', 18.56)
@@ -186,7 +186,7 @@ def grafo():
     G.add_edge('P17', 'P18', 40.14)
     G.add_edge('P18', 'P17', 40.14)
     G.add_edge('P18', 'I', 30.81)
-    G.add_edge('P18', 'V14', 359.61)
+    G.add_edge('P18', 'V14', 59.61)
     G.add_edge('P19', 'V15', 338.42)
     G.add_edge('P19', 'P20', 52.24)
     G.add_edge('P20', 'P19', 52.24)
@@ -212,19 +212,3 @@ def grafo():
     G.add_edge('P30', 'P29', 128.02)
     G.add_edge('P30', 'N', 398.84)
     return G
-"""
-def main():
-
-    G=grafo()
-    print ("Donde empieza?")
-    st = raw_input()
-    shortestPath(G, st)
-    print ("Destino")
-    dest = raw_input()
-    l=printPath(G, dest)
-    print (l)
-
-
-if __name__ == "__main__":
-    main()
-"""
