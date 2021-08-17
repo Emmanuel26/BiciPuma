@@ -1,5 +1,6 @@
 import socket
 import pickle
+from Mapa import *
 
 HOST = '127.0.0.1'
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -19,6 +20,7 @@ while True:
     if not msg:
         break   
 vecf = pickle.loads(b"".join(data))
+plotMapa(vecf)
 
 
 mapa=[]
