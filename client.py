@@ -2,7 +2,7 @@ import socket
 import pickle
 from Mapa import *
 
-HOST = '192.168.0.6'
+HOST = '127.0.0.1'
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.connect((HOST,4001))
 
